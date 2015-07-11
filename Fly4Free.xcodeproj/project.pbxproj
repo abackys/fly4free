@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD8FEE31B50EA4B00761776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8FEE21B50EA4B00761776 /* AppDelegate.swift */; };
+		FAD8FEE51B50EA4B00761776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8FEE41B50EA4B00761776 /* ViewController.swift */; };
+		FAD8FEE81B50EA4B00761776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8FEE61B50EA4B00761776 /* Main.storyboard */; };
+		FAD8FEEA1B50EA4B00761776 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD8FEE91B50EA4B00761776 /* Images.xcassets */; };
+		FAD8FEED1B50EA4B00761776 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD8FEEB1B50EA4B00761776 /* LaunchScreen.xib */; };
+		FAD8FEF91B50EA4B00761776 /* Fly4FreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8FEF81B50EA4B00761776 /* Fly4FreeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD8FEF31B50EA4B00761776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD8FED51B50EA4B00761776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD8FEDC1B50EA4B00761776;
+			remoteInfo = Fly4Free;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD8FEDD1B50EA4B00761776 /* Fly4Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fly4Free.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8FEE11B50EA4B00761776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD8FEE21B50EA4B00761776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD8FEE41B50EA4B00761776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD8FEE71B50EA4B00761776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD8FEE91B50EA4B00761776 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAD8FEEC1B50EA4B00761776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAD8FEF21B50EA4B00761776 /* Fly4FreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fly4FreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8FEF71B50EA4B00761776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD8FEF81B50EA4B00761776 /* Fly4FreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fly4FreeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD8FEDA1B50EA4B00761776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD8FEEF1B50EA4B00761776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD8FED41B50EA4B00761776 = {
+			isa = PBXGroup;
+			children = (
+				FAD8FEDF1B50EA4B00761776 /* Fly4Free */,
+				FAD8FEF51B50EA4B00761776 /* Fly4FreeTests */,
+				FAD8FEDE1B50EA4B00761776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD8FEDE1B50EA4B00761776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8FEDD1B50EA4B00761776 /* Fly4Free.app */,
+				FAD8FEF21B50EA4B00761776 /* Fly4FreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD8FEDF1B50EA4B00761776 /* Fly4Free */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8FEE21B50EA4B00761776 /* AppDelegate.swift */,
+				FAD8FEE41B50EA4B00761776 /* ViewController.swift */,
+				FAD8FEE61B50EA4B00761776 /* Main.storyboard */,
+				FAD8FEE91B50EA4B00761776 /* Images.xcassets */,
+				FAD8FEEB1B50EA4B00761776 /* LaunchScreen.xib */,
+				FAD8FEE01B50EA4B00761776 /* Supporting Files */,
+			);
+			path = Fly4Free;
+			sourceTree = "<group>";
+		};
+		FAD8FEE01B50EA4B00761776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8FEE11B50EA4B00761776 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD8FEF51B50EA4B00761776 /* Fly4FreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8FEF81B50EA4B00761776 /* Fly4FreeTests.swift */,
+				FAD8FEF61B50EA4B00761776 /* Supporting Files */,
+			);
+			path = Fly4FreeTests;
+			sourceTree = "<group>";
+		};
+		FAD8FEF61B50EA4B00761776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8FEF71B50EA4B00761776 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD8FEDC1B50EA4B00761776 /* Fly4Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD8FEFC1B50EA4B00761776 /* Build configuration list for PBXNativeTarget "Fly4Free" */;
+			buildPhases = (
+				FAD8FED91B50EA4B00761776 /* Sources */,
+				FAD8FEDA1B50EA4B00761776 /* Frameworks */,
+				FAD8FEDB1B50EA4B00761776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fly4Free;
+			productName = Fly4Free;
+			productReference = FAD8FEDD1B50EA4B00761776 /* Fly4Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD8FEF11B50EA4B00761776 /* Fly4FreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD8FEFF1B50EA4B00761776 /* Build configuration list for PBXNativeTarget "Fly4FreeTests" */;
+			buildPhases = (
+				FAD8FEEE1B50EA4B00761776 /* Sources */,
+				FAD8FEEF1B50EA4B00761776 /* Frameworks */,
+				FAD8FEF01B50EA4B00761776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD8FEF41B50EA4B00761776 /* PBXTargetDependency */,
+			);
+			name = Fly4FreeTests;
+			productName = Fly4FreeTests;
+			productReference = FAD8FEF21B50EA4B00761776 /* Fly4FreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD8FED51B50EA4B00761776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = opendev;
+				TargetAttributes = {
+					FAD8FEDC1B50EA4B00761776 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FAD8FEF11B50EA4B00761776 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FAD8FEDC1B50EA4B00761776;
+					};
+				};
+			};
+			buildConfigurationList = FAD8FED81B50EA4B00761776 /* Build configuration list for PBXProject "Fly4Free" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD8FED41B50EA4B00761776;
+			productRefGroup = FAD8FEDE1B50EA4B00761776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD8FEDC1B50EA4B00761776 /* Fly4Free */,
+				FAD8FEF11B50EA4B00761776 /* Fly4FreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD8FEDB1B50EA4B00761776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD8FEE81B50EA4B00761776 /* Main.storyboard in Resources */,
+				FAD8FEED1B50EA4B00761776 /* LaunchScreen.xib in Resources */,
+				FAD8FEEA1B50EA4B00761776 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD8FEF01B50EA4B00761776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD8FED91B50EA4B00761776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD8FEE51B50EA4B00761776 /* ViewController.swift in Sources */,
+				FAD8FEE31B50EA4B00761776 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD8FEEE1B50EA4B00761776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD8FEF91B50EA4B00761776 /* Fly4FreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD8FEF41B50EA4B00761776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD8FEDC1B50EA4B00761776 /* Fly4Free */;
+			targetProxy = FAD8FEF31B50EA4B00761776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD8FEE61B50EA4B00761776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD8FEE71B50EA4B00761776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD8FEEB1B50EA4B00761776 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD8FEEC1B50EA4B00761776 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD8FEFA1B50EA4B00761776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD8FEFB1B50EA4B00761776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD8FEFD1B50EA4B00761776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fly4Free/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAD8FEFE1B50EA4B00761776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fly4Free/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD8FF001B50EA4B00761776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Fly4FreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fly4Free.app/Fly4Free";
+			};
+			name = Debug;
+		};
+		FAD8FF011B50EA4B00761776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Fly4FreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fly4Free.app/Fly4Free";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD8FED81B50EA4B00761776 /* Build configuration list for PBXProject "Fly4Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD8FEFA1B50EA4B00761776 /* Debug */,
+				FAD8FEFB1B50EA4B00761776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD8FEFC1B50EA4B00761776 /* Build configuration list for PBXNativeTarget "Fly4Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD8FEFD1B50EA4B00761776 /* Debug */,
+				FAD8FEFE1B50EA4B00761776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD8FEFF1B50EA4B00761776 /* Build configuration list for PBXNativeTarget "Fly4FreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD8FF001B50EA4B00761776 /* Debug */,
+				FAD8FF011B50EA4B00761776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD8FED51B50EA4B00761776 /* Project object */;
+}
