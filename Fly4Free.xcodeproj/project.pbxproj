@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		649E6D1021434A70B913E55D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8609AFAAC7EB10EB6B3416 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FA1212671B543F8100600FFB /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1212661B543F8100600FFB /* ItemCell.swift */; };
+		FA2FFDAF1B50EDBD00D6CD8D /* FeedHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FFDAE1B50EDBD00D6CD8D /* FeedHandler.swift */; };
 		FAD8FEE31B50EA4B00761776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8FEE21B50EA4B00761776 /* AppDelegate.swift */; };
 		FAD8FEE51B50EA4B00761776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8FEE41B50EA4B00761776 /* ViewController.swift */; };
 		FAD8FEE81B50EA4B00761776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8FEE61B50EA4B00761776 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		FAD8FEED1B50EA4B00761776 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD8FEEB1B50EA4B00761776 /* LaunchScreen.xib */; };
 		FAD8FEF91B50EA4B00761776 /* Fly4FreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8FEF81B50EA4B00761776 /* Fly4FreeTests.swift */; };
 		FAD8FF051B50EB8D00761776 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FAD8FF041B50EB8D00761776 /* Podfile */; };
+		FAFD71001B54421500CE86FA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD70FF1B54421500CE86FA /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,8 @@
 		3216A18EF0BAC94AEC34D978 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AF8609AFAAC7EB10EB6B3416 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A2B75CFA876DA6BA82520 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1212661B543F8100600FFB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		FA2FFDAE1B50EDBD00D6CD8D /* FeedHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedHandler.swift; sourceTree = "<group>"; };
 		FAD8FEDD1B50EA4B00761776 /* Fly4Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fly4Free.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD8FEE11B50EA4B00761776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAD8FEE21B50EA4B00761776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +47,7 @@
 		FAD8FEF71B50EA4B00761776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAD8FEF81B50EA4B00761776 /* Fly4FreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fly4FreeTests.swift; sourceTree = "<group>"; };
 		FAD8FF041B50EB8D00761776 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		FAFD70FF1B54421500CE86FA /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA1212681B543F8A00600FFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA1212661B543F8100600FFB /* ItemCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		FAD8FED41B50EA4B00761776 = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +117,11 @@
 		FAD8FEDF1B50EA4B00761776 /* Fly4Free */ = {
 			isa = PBXGroup;
 			children = (
+				FAFD70FE1B54420400CE86FA /* Models */,
+				FA1212681B543F8A00600FFB /* Views */,
 				FAD8FEE21B50EA4B00761776 /* AppDelegate.swift */,
 				FAD8FEE41B50EA4B00761776 /* ViewController.swift */,
+				FA2FFDAE1B50EDBD00D6CD8D /* FeedHandler.swift */,
 				FAD8FEE61B50EA4B00761776 /* Main.storyboard */,
 				FAD8FEE91B50EA4B00761776 /* Images.xcassets */,
 				FAD8FEEB1B50EA4B00761776 /* LaunchScreen.xib */,
@@ -137,6 +154,14 @@
 				FAD8FEF71B50EA4B00761776 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFD70FE1B54420400CE86FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD70FF1B54421500CE86FA /* Item.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFD71001B54421500CE86FA /* Item.swift in Sources */,
+				FA1212671B543F8100600FFB /* ItemCell.swift in Sources */,
+				FA2FFDAF1B50EDBD00D6CD8D /* FeedHandler.swift in Sources */,
 				FAD8FEE51B50EA4B00761776 /* ViewController.swift in Sources */,
 				FAD8FEE31B50EA4B00761776 /* AppDelegate.swift in Sources */,
 			);
